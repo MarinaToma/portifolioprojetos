@@ -13,8 +13,6 @@ from streamlit_folium import st_folium
 # Funções
 # ==================================
 
-df = pd.read_csv (r'train.csv')
-df1 = df.copy()
 
 def clean_code(df1):
 
@@ -65,7 +63,7 @@ def clean_code(df1):
 # ------------------------ Início da estrutura lógica do código ------------------------
 
 # Import dataset
-df = pd.read_csv('dataset/train.csv')
+df = pd.read_csv('train.csv')
 
 # Limpar código
 df1 = clean_code(df)
