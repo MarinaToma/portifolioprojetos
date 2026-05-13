@@ -80,8 +80,8 @@ st.header('Tabela de Pedidos')
 from datetime import datetime
 from PIL import Image
 
-image_path = 'C:/repos/ftc_programacao_python/imagem.jpg'
-imagem = Image.open(image_path)
+#image_path = 'C:/repos/ftc_programacao_python/imagem.jpg'
+imagem = Image.open('imagem.jpg')
 
 st.image(imagem, width = 120)
 
